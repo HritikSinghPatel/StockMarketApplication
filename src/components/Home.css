@@ -1,0 +1,88 @@
+/* Home.css */
+
+/* Navbar Styles */
+.navbar {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .brand {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  /* Content Styles */
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .info-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-info {
+    position: relative;
+    flex: 1;
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .image-info img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background: rgba(52, 152, 219, 0.8);
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .image-info:hover .overlay {
+    opacity: 1;
+  }
+
+  /* Media Query for Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-links {
+      margin-top: 10px;
+    }
+  
+    .nav-links a {
+      margin: 10px;
+    }
+  }
+  
