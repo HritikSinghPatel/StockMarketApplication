@@ -1,7 +1,7 @@
 // Import necessary libraries
 import React from 'react';
 import { Link } from "react-router-dom";
-import Login from './Login';
+// import Login from './Login';
 
 import './Home.css'; // Import your CSS file for styling
 
@@ -46,7 +46,7 @@ const Home = () => {
         {/* Stock Market Images */}
         <div className="image-container">
           <div className="image-info">
-          <img src={require("../images/chart.jpg")} alt="Stock Market Image 1" />
+          <img src={require("../images/chart.jpg")} alt="Loading1" />
             <div className="overlay">
               <h3>Market Trends</h3>
               <p>Explore the latest market trends and predictions to guide your investment strategies.</p>
@@ -54,7 +54,7 @@ const Home = () => {
           </div>
 
           <div className="image-info">
-          <img src={require("../images/images1.jpeg")} alt="Stock Market Image 1" />
+          <img src={require("../images/images1.jpeg")} alt="Loading2" />
             <div className="overlay">
               <h3>Financial News</h3>
               <p>Stay updated with breaking financial news and analysis from around the world.</p>
@@ -62,7 +62,7 @@ const Home = () => {
           </div>
 
           <div className="image-info">
-          <img src={require("../images/chart.jpg")} alt="Stock Market Image 1" />
+          <img src={require("../images/chart.jpg")} alt="Loading3" />
             <div className="overlay">
               <h3>Investment Strategies</h3>
               <p>Learn about successful investment strategies and tips from seasoned professionals.</p>
