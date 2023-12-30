@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Stock Market Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Stock Market Dashboard is a dynamic and user-friendly platform designed to empower users in effortlessly navigating and analyzing real-time stock market data. This comprehensive tool boasts a variety of features, enabling users to explore diverse stock categories, personalize dashboards, and engage with interactive data visualizations. Additionally, the platform allows users to fine-tune settings to align with their individual preferences. With its immersive design, this tool provides investors with in-depth insights into the constantly evolving realm of stock markets.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Project Overview](#project-overview)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Directory Structure](#directory-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Overview
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The React application functions as a flexible dashboard designed for stock market enthusiasts. In this project, users have the ability to personalize their experience by utilizing features like real-time stock data, interactive charts, and timely news updates related to their chosen stocks. This platform is tailored to individuals who desire a dynamic and customizable interface to stay well-informed and make educated decisions within the realm of stock markets.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js
+- npm (node package manager)
+- charts.js
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository:**
 
-### `npm run eject`
+    ```bash
+    git clone https://github.com/HritikSinghPatel/StockMarketApplication.git
+    
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Navigate to the project directory:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    cd stock-market-dashboard
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Install dependencies:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm install
+    ```
 
-## Learn More
+4. **Run the application:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    The app will be accessible at [http://localhost:3000](http://localhost:3000).
 
-### Code Splitting
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Real-Time Stock Data:**
+   - View stock market real time data.
 
-### Analyzing the Bundle Size
+2. **Interactive Charts:**
+   - Visualize stock data using interactive charts like bar charts and line charts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. **User Authentication:**
+   - Logged-in to get personalized features of the application.
 
-### Making a Progressive Web App
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+List the key technologies or frameworks used in your project.
+- React.js
+- Node.js
+- Charting Libraries (e.g., Recharts, Highcharts)
+- Stock API (e.g., https://api.iex.cloud/v1)
 
-### Advanced Configuration
+## Directory Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- `src/`: JSX source code files.
+- `public/`: HTML template.
+- `src/images/` : images which are used in the code
+- `screenshot-stock-web/` : contain screenshots of the working application
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![App Screenshot](https://github.com/HritikSinghPatel/StockMarketApplication/blob/master/screenshot-stock-web/Screenshot%202023-12-30%20162115.png)
